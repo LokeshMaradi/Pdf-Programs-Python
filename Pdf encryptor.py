@@ -1,4 +1,4 @@
-from PyPDF2 import PdfFileWriter,PdfFileReader
+from PyPDF2 import PdfFileWriter
 writer_obj=PdfFileWriter()
 #open pdf file which you want to encrypt
 pdf=open("C:\\Users\\pdf_for_enc.pdf",'wb')
