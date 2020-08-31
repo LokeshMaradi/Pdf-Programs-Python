@@ -6,7 +6,7 @@ n=read1.getNumPages()
 writer_obj1=PdfFileWriter()
 for j in range(n):
 	page=read1.getPage(j) #Every page will be read here
-	page.mergePage(page_w) #Every page will be merged here
+	page.mergePage(page_w) #Every page will be merged with watermark here
 	writer_obj1.addPage(page) #Added to writer object
 pdf1=open("C:\\Users\\pdfwatermark.pdf",'wb')
 writer_obj1.write(pdf1) #Added to final pdf
